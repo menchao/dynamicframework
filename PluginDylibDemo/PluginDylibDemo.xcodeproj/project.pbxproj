@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A43395C22B8C07E006CE6AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A43395B22B8C07E006CE6AC /* AppDelegate.m */; };
+		4A43395F22B8C07E006CE6AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A43395E22B8C07E006CE6AC /* ViewController.m */; };
+		4A43396222B8C07E006CE6AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A43396022B8C07E006CE6AC /* Main.storyboard */; };
+		4A43396522B8C07E006CE6AC /* PluginDylibDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A43396322B8C07E006CE6AC /* PluginDylibDemo.xcdatamodeld */; };
+		4A43396722B8C07F006CE6AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A43396622B8C07F006CE6AC /* Assets.xcassets */; };
+		4A43396A22B8C07F006CE6AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A43396822B8C07F006CE6AC /* LaunchScreen.storyboard */; };
+		4A43396D22B8C07F006CE6AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A43396C22B8C07F006CE6AC /* main.m */; };
+		4A43397722B8C07F006CE6AC /* PluginDylibDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A43397622B8C07F006CE6AC /* PluginDylibDemoTests.m */; };
+		4A43398222B8C07F006CE6AC /* PluginDylibDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A43398122B8C07F006CE6AC /* PluginDylibDemoUITests.m */; };
+		4A4339A622B8D936006CE6AC /* Logo_40.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A4339A522B8D936006CE6AC /* Logo_40.png */; };
+		4A4339FC22B8E29E006CE6AC /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4339FB22B8E29E006CE6AC /* libiconv.tbd */; };
+		4A433A0022B8E2AA006CE6AC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4339FF22B8E2AA006CE6AC /* Security.framework */; };
+		4A433A0222B8E3E4006CE6AC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A433A0122B8E3E4006CE6AC /* libz.tbd */; };
+		4A6FCA7E22B9232C00DDAA78 /* PluginDylib2.zip in Resources */ = {isa = PBXBuildFile; fileRef = 4A6FCA7D22B9232C00DDAA78 /* PluginDylib2.zip */; };
+		E5A63CA3E67D8D72C367CBCE /* Pods_core_PluginDylibDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7099285CC46FD3A2152A3319 /* Pods_core_PluginDylibDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A43397322B8C07F006CE6AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A43394F22B8C07E006CE6AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A43395622B8C07E006CE6AC;
+			remoteInfo = PluginDylibDemo;
+		};
+		4A43397E22B8C07F006CE6AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A43394F22B8C07E006CE6AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A43395622B8C07E006CE6AC;
+			remoteInfo = PluginDylibDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A43395722B8C07E006CE6AC /* PluginDylibDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PluginDylibDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A43395A22B8C07E006CE6AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A43395B22B8C07E006CE6AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A43395D22B8C07E006CE6AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4A43395E22B8C07E006CE6AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4A43396122B8C07E006CE6AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A43396422B8C07E006CE6AC /* PluginDylibDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PluginDylibDemo.xcdatamodel; sourceTree = "<group>"; };
+		4A43396622B8C07F006CE6AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A43396922B8C07F006CE6AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A43396B22B8C07F006CE6AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A43396C22B8C07F006CE6AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A43397222B8C07F006CE6AC /* PluginDylibDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PluginDylibDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A43397622B8C07F006CE6AC /* PluginDylibDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PluginDylibDemoTests.m; sourceTree = "<group>"; };
+		4A43397822B8C07F006CE6AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A43397D22B8C07F006CE6AC /* PluginDylibDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PluginDylibDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A43398122B8C07F006CE6AC /* PluginDylibDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PluginDylibDemoUITests.m; sourceTree = "<group>"; };
+		4A43398322B8C07F006CE6AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A4339A522B8D936006CE6AC /* Logo_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Logo_40.png; path = ../../../Desktop/Logo_40.png; sourceTree = "<group>"; };
+		4A4339FB22B8E29E006CE6AC /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		4A4339FD22B8E2A3006CE6AC /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
+		4A4339FF22B8E2AA006CE6AC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4A433A0122B8E3E4006CE6AC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		4A6FCA7D22B9232C00DDAA78 /* PluginDylib2.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = PluginDylib2.zip; path = PluginDylibDemo/PluginDylib2.zip; sourceTree = "<group>"; };
+		7099285CC46FD3A2152A3319 /* Pods_core_PluginDylibDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_core_PluginDylibDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71D843BB551D5BAD18E1B9CA /* Pods-core-PluginDylibDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-core-PluginDylibDemo.debug.xcconfig"; path = "Target Support Files/Pods-core-PluginDylibDemo/Pods-core-PluginDylibDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		98D8935F2E6BBFEB6AAB94B7 /* Pods-core-PluginDylibDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-core-PluginDylibDemo.release.xcconfig"; path = "Target Support Files/Pods-core-PluginDylibDemo/Pods-core-PluginDylibDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A43395422B8C07E006CE6AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A433A0222B8E3E4006CE6AC /* libz.tbd in Frameworks */,
+				4A433A0022B8E2AA006CE6AC /* Security.framework in Frameworks */,
+				4A4339FC22B8E29E006CE6AC /* libiconv.tbd in Frameworks */,
+				E5A63CA3E67D8D72C367CBCE /* Pods_core_PluginDylibDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A43396F22B8C07F006CE6AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A43397A22B8C07F006CE6AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A43394E22B8C07E006CE6AC = {
+			isa = PBXGroup;
+			children = (
+				4A6FCA7D22B9232C00DDAA78 /* PluginDylib2.zip */,
+				4A4339A522B8D936006CE6AC /* Logo_40.png */,
+				4A43395922B8C07E006CE6AC /* PluginDylibDemo */,
+				4A43397522B8C07F006CE6AC /* PluginDylibDemoTests */,
+				4A43398022B8C07F006CE6AC /* PluginDylibDemoUITests */,
+				4A43395822B8C07E006CE6AC /* Products */,
+				4A4339FA22B8E29E006CE6AC /* Frameworks */,
+				E0E145880CB57745006B5535 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		4A43395822B8C07E006CE6AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A43395722B8C07E006CE6AC /* PluginDylibDemo.app */,
+				4A43397222B8C07F006CE6AC /* PluginDylibDemoTests.xctest */,
+				4A43397D22B8C07F006CE6AC /* PluginDylibDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A43395922B8C07E006CE6AC /* PluginDylibDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4A43395A22B8C07E006CE6AC /* AppDelegate.h */,
+				4A43395B22B8C07E006CE6AC /* AppDelegate.m */,
+				4A43395D22B8C07E006CE6AC /* ViewController.h */,
+				4A43395E22B8C07E006CE6AC /* ViewController.m */,
+				4A43396022B8C07E006CE6AC /* Main.storyboard */,
+				4A43396622B8C07F006CE6AC /* Assets.xcassets */,
+				4A43396822B8C07F006CE6AC /* LaunchScreen.storyboard */,
+				4A43396B22B8C07F006CE6AC /* Info.plist */,
+				4A43396C22B8C07F006CE6AC /* main.m */,
+				4A43396322B8C07E006CE6AC /* PluginDylibDemo.xcdatamodeld */,
+			);
+			path = PluginDylibDemo;
+			sourceTree = "<group>";
+		};
+		4A43397522B8C07F006CE6AC /* PluginDylibDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A43397622B8C07F006CE6AC /* PluginDylibDemoTests.m */,
+				4A43397822B8C07F006CE6AC /* Info.plist */,
+			);
+			path = PluginDylibDemoTests;
+			sourceTree = "<group>";
+		};
+		4A43398022B8C07F006CE6AC /* PluginDylibDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A43398122B8C07F006CE6AC /* PluginDylibDemoUITests.m */,
+				4A43398322B8C07F006CE6AC /* Info.plist */,
+			);
+			path = PluginDylibDemoUITests;
+			sourceTree = "<group>";
+		};
+		4A4339FA22B8E29E006CE6AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A433A0122B8E3E4006CE6AC /* libz.tbd */,
+				4A4339FF22B8E2AA006CE6AC /* Security.framework */,
+				4A4339FD22B8E2A3006CE6AC /* libz.1.1.3.tbd */,
+				4A4339FB22B8E29E006CE6AC /* libiconv.tbd */,
+				7099285CC46FD3A2152A3319 /* Pods_core_PluginDylibDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0E145880CB57745006B5535 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71D843BB551D5BAD18E1B9CA /* Pods-core-PluginDylibDemo.debug.xcconfig */,
+				98D8935F2E6BBFEB6AAB94B7 /* Pods-core-PluginDylibDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A43395622B8C07E006CE6AC /* PluginDylibDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A43398622B8C07F006CE6AC /* Build configuration list for PBXNativeTarget "PluginDylibDemo" */;
+			buildPhases = (
+				64F6AE7A973D97FD9EE07316 /* [CP] Check Pods Manifest.lock */,
+				4A43395322B8C07E006CE6AC /* Sources */,
+				4A43395422B8C07E006CE6AC /* Frameworks */,
+				4A43395522B8C07E006CE6AC /* Resources */,
+				8024C040C657501A24784BF5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PluginDylibDemo;
+			productName = PluginDylibDemo;
+			productReference = 4A43395722B8C07E006CE6AC /* PluginDylibDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A43397122B8C07F006CE6AC /* PluginDylibDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A43398922B8C07F006CE6AC /* Build configuration list for PBXNativeTarget "PluginDylibDemoTests" */;
+			buildPhases = (
+				4A43396E22B8C07F006CE6AC /* Sources */,
+				4A43396F22B8C07F006CE6AC /* Frameworks */,
+				4A43397022B8C07F006CE6AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A43397422B8C07F006CE6AC /* PBXTargetDependency */,
+			);
+			name = PluginDylibDemoTests;
+			productName = PluginDylibDemoTests;
+			productReference = 4A43397222B8C07F006CE6AC /* PluginDylibDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A43397C22B8C07F006CE6AC /* PluginDylibDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A43398C22B8C07F006CE6AC /* Build configuration list for PBXNativeTarget "PluginDylibDemoUITests" */;
+			buildPhases = (
+				4A43397922B8C07F006CE6AC /* Sources */,
+				4A43397A22B8C07F006CE6AC /* Frameworks */,
+				4A43397B22B8C07F006CE6AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A43397F22B8C07F006CE6AC /* PBXTargetDependency */,
+			);
+			name = PluginDylibDemoUITests;
+			productName = PluginDylibDemoUITests;
+			productReference = 4A43397D22B8C07F006CE6AC /* PluginDylibDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A43394F22B8C07E006CE6AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = BGY;
+				TargetAttributes = {
+					4A43395622B8C07E006CE6AC = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					4A43397122B8C07F006CE6AC = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 4A43395622B8C07E006CE6AC;
+					};
+					4A43397C22B8C07F006CE6AC = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 4A43395622B8C07E006CE6AC;
+					};
+				};
+			};
+			buildConfigurationList = 4A43395222B8C07E006CE6AC /* Build configuration list for PBXProject "PluginDylibDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A43394E22B8C07E006CE6AC;
+			productRefGroup = 4A43395822B8C07E006CE6AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A43395622B8C07E006CE6AC /* PluginDylibDemo */,
+				4A43397122B8C07F006CE6AC /* PluginDylibDemoTests */,
+				4A43397C22B8C07F006CE6AC /* PluginDylibDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A43395522B8C07E006CE6AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4339A622B8D936006CE6AC /* Logo_40.png in Resources */,
+				4A6FCA7E22B9232C00DDAA78 /* PluginDylib2.zip in Resources */,
+				4A43396A22B8C07F006CE6AC /* LaunchScreen.storyboard in Resources */,
+				4A43396722B8C07F006CE6AC /* Assets.xcassets in Resources */,
+				4A43396222B8C07E006CE6AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A43397022B8C07F006CE6AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A43397B22B8C07F006CE6AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64F6AE7A973D97FD9EE07316 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-core-PluginDylibDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8024C040C657501A24784BF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-core-PluginDylibDemo/Pods-core-PluginDylibDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-core-PluginDylibDemo/Pods-core-PluginDylibDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-core-PluginDylibDemo/Pods-core-PluginDylibDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A43395322B8C07E006CE6AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A43395F22B8C07E006CE6AC /* ViewController.m in Sources */,
+				4A43395C22B8C07E006CE6AC /* AppDelegate.m in Sources */,
+				4A43396D22B8C07F006CE6AC /* main.m in Sources */,
+				4A43396522B8C07E006CE6AC /* PluginDylibDemo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A43396E22B8C07F006CE6AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A43397722B8C07F006CE6AC /* PluginDylibDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A43397922B8C07F006CE6AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A43398222B8C07F006CE6AC /* PluginDylibDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A43397422B8C07F006CE6AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A43395622B8C07E006CE6AC /* PluginDylibDemo */;
+			targetProxy = 4A43397322B8C07F006CE6AC /* PBXContainerItemProxy */;
+		};
+		4A43397F22B8C07F006CE6AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A43395622B8C07E006CE6AC /* PluginDylibDemo */;
+			targetProxy = 4A43397E22B8C07F006CE6AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A43396022B8C07E006CE6AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A43396122B8C07E006CE6AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A43396822B8C07F006CE6AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A43396922B8C07F006CE6AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A43398422B8C07F006CE6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A43398522B8C07F006CE6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A43398722B8C07F006CE6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71D843BB551D5BAD18E1B9CA /* Pods-core-PluginDylibDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = XLRM4799CT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/PluginDylibDemo",
+				);
+				INFOPLIST_FILE = PluginDylibDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.luoyixin.iphoneslxt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = slxt_ihpone_dev;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A43398822B8C07F006CE6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98D8935F2E6BBFEB6AAB94B7 /* Pods-core-PluginDylibDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/PluginDylibDemo",
+				);
+				INFOPLIST_FILE = PluginDylibDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.luoyixin.iphoneslxt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4A43398A22B8C07F006CE6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XLRM4799CT;
+				INFOPLIST_FILE = PluginDylibDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bgy.PluginDylibDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PluginDylibDemo.app/PluginDylibDemo";
+			};
+			name = Debug;
+		};
+		4A43398B22B8C07F006CE6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XLRM4799CT;
+				INFOPLIST_FILE = PluginDylibDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bgy.PluginDylibDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PluginDylibDemo.app/PluginDylibDemo";
+			};
+			name = Release;
+		};
+		4A43398D22B8C07F006CE6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XLRM4799CT;
+				INFOPLIST_FILE = PluginDylibDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bgy.PluginDylibDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PluginDylibDemo;
+			};
+			name = Debug;
+		};
+		4A43398E22B8C07F006CE6AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XLRM4799CT;
+				INFOPLIST_FILE = PluginDylibDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bgy.PluginDylibDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PluginDylibDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A43395222B8C07E006CE6AC /* Build configuration list for PBXProject "PluginDylibDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A43398422B8C07F006CE6AC /* Debug */,
+				4A43398522B8C07F006CE6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A43398622B8C07F006CE6AC /* Build configuration list for PBXNativeTarget "PluginDylibDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A43398722B8C07F006CE6AC /* Debug */,
+				4A43398822B8C07F006CE6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A43398922B8C07F006CE6AC /* Build configuration list for PBXNativeTarget "PluginDylibDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A43398A22B8C07F006CE6AC /* Debug */,
+				4A43398B22B8C07F006CE6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A43398C22B8C07F006CE6AC /* Build configuration list for PBXNativeTarget "PluginDylibDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A43398D22B8C07F006CE6AC /* Debug */,
+				4A43398E22B8C07F006CE6AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4A43396322B8C07E006CE6AC /* PluginDylibDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4A43396422B8C07E006CE6AC /* PluginDylibDemo.xcdatamodel */,
+			);
+			currentVersion = 4A43396422B8C07E006CE6AC /* PluginDylibDemo.xcdatamodel */;
+			path = PluginDylibDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4A43394F22B8C07E006CE6AC /* Project object */;
+}

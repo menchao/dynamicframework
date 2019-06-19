@@ -1,0 +1,16 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+# inhibit_all_warnings!
+use_frameworks!
+
+abstract_target 'core' do
+
+  pod 'SSZipArchive', :path => '..'
+
+  target 'PluginDylibDemo' do
+    platform :ios, '8.0'
+  end
+
+ 
+  
+end

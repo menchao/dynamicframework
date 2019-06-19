@@ -1,0 +1,6 @@
+framework module PluginDylib {
+  umbrella header "PluginDylib.h"
+
+  export *
+  module * { export * }
+}

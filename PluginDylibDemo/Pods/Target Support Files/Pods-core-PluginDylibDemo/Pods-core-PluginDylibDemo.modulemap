@@ -1,0 +1,6 @@
+framework module Pods_core_PluginDylibDemo {
+  umbrella header "Pods-core-PluginDylibDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
